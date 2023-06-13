@@ -159,3 +159,15 @@
     
     color: #e74c3c;
   }
+.bill-button{
+  background-color: #1c7c9e;
+  border: none;
+  box-shadow:2px 2px 2px black;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.bill-button:hover{
+background-color: #d32f2f;
+}

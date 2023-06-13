@@ -85,7 +85,7 @@ const CartNew = ({ cart, setCart, handleChange }) => {
         <span className="total-text">Total Price of your Cart</span>
         <span className="rupees">Rs - <span className="price">{price}</span></span>
       </div>
-      <button onClick={generatePDF}>Generate Bill</button>
+      <button className="bill-button" onClick={generatePDF}>Generate Bill</button>
     </div>
   );
 };
